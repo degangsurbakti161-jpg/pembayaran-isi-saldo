@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pembayaran Isi Ulang Saldo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="security-header">
+            <span class="secure-icon">🔒</span> Koneksi Aman. Transaksi Dilindungi.
+        </div>
+
+        <h1 class="main-title">Pembayaran Isi Ulang Saldo</h1>
+
+        <div class="steps-container">
+            <div class="step active">
+                <span class="step-icon">⬇️</span>
+                <span class="step-text">1. Transfer Dana</span>
+            </div>
+            <div class="step inactive">
+                <span class="step-icon">📝</span>
+                <span class="step-text">2. Akses Platform</span>
+            </div>
+        </div>
+        
+        <div class="form-section">
+            <p class="section-title">REKENING TUJUAN TRANSFER:</p>
+            
+            <div class="data-row">
+                <span class="label">Nama Bank:</span>
+                <span class="value bank-name">BRI</span>
+            </div>
+            
+            <div class="data-row">
+                <span class="label">Nama Pemilik:</span>
+                <span class="value owner-name">RIZKA MUNIRA</span>
+            </div>
+
+            <p class="section-title">NOMOR REKENING TUJUAN:</p>
+            <div class="account-number-box">
+                <span class="account-number">001901003604565</span>
+                <button class="copy-button green">SALIN</button>
+            </div>
+
+            <div class="info-box">
+                <span class="info-icon">🕒</span>
+                <p>Pemrosesan Saldo: **1-15 Menit** pada jam kerja (09:00 - 21:00 WIB).</p>
+            </div>
+
+            <p class="transfer-amount-title">Jumlah yang Akan Ditransfer:</p>
+            <div class="amount-input-box">
+                <input type="text" value="Minimal Rp10.000" readonly>
+                <button class="copy-button blue">SALIN</button>
+            </div>
+
+            <p class="transfer-check-title">PASTIKAN SEBELUM TRANSFER:</p>
+            <ul class="transfer-checklist">
+                <li><span class="check-icon">✅</span> Nominal Transfer sudah sesuai (<span class="red-text">Rp0</span>).</li>
+                <li><span class="check-icon">✅</span> Bank Tujuan: <span class="bold-text">BRI</span>.</li>
+                <li><span class="check-icon">✅</span> Kirim bukti langsung kepada mentor guru untuk verifikasi.</li>
+            </ul>
+        </div>
+        
+        <button class="platform-button disabled">
+            <span class="button-icon">➡️</span> LANJUTKAN KE PLATFORM
+        </button>
+
+        <div class="note-box">
+            <span class="note-icon">❗️</span>
+            <p>Catatan: Tombol di atas hanya mengarahkan ke halaman login. Saldo terisi otomatis setelah transfer.</p>
+        </div>
+    </div>
+</body>
+</html>
